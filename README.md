@@ -41,3 +41,16 @@ echo "Hello Word"
 ```
 echo "Hello Word" > savefile.txt
 ```
+* en: Move file
+```
+mv myfile.txt dir1
+ls dir1
+```
+* en: Move all files on "dir1" foder into "current" folder (single dot (.) can be used to represent the current working)
+```
+mv dir1/* .
+```
+en: Backup file
+```
+mv backup_combined.txt combined_backup.txt
+```
