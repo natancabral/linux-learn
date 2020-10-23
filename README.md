@@ -1,18 +1,13 @@
 # Linux Learn
 
-The Linux command line is a text interface to your computer. Often referred to as the shell, terminal, console, prompt or various other names, it can give the appearance of being complex and confusing to use. Yet the ability to copy and paste commands from a website, combined with the power and flexibility the command line offers.
+en: The Linux command line is a text interface to your computer. Often referred to as the shell, terminal, console, prompt or various other names, it can give the appearance of being complex and confusing to use. Yet the ability to copy and paste commands from a website, combined with the power and flexibility the command line offers.
 
 This tutorial will teach you a little more about commands line on Linux.
 
-## Finder
+pt: A linha de comando do Linux é uma interface de texto para o seu computador. Freqüentemente referido como shell, terminal, console, prompt ou vários outros nomes, pode dar a aparência de ser complexo e confuso de usar. Ainda assim, a capacidade de copiar e colar comandos de um site, combinada com o poder e flexibilidade que a linha de comando oferece.
 
-* en: Find in /Home size files > 1GB and list then
-* pt: Busque por arquivos em /Home de tamanho maior que 1GB e liste
+Este tutorial vai te ensinar um pouco mais sobre linha de comando no Linux.
 
-> Ubuntu
-```
-find ~ -size +1G -ls
-```
 ---
 
 ## Simples Commands
@@ -77,4 +72,16 @@ en: User access
 ```
 sudo su -- # root user
 sudo su -nameuserhere # to access your username
+```
+
+---
+
+## Finder
+
+* en: Find in /Home size files > 1GB and list then
+* pt: Busque por arquivos em /Home de tamanho maior que 1GB e liste
+
+> Ubuntu
+```
+find ~ -size +1G -ls
 ```
