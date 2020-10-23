@@ -60,12 +60,17 @@ en: Remove Files and Folders
 ```
 rm file.ext
 rm folder
-rmdir folder* #delete folder1,folder2,folder_,folder... 
-rmdir folder1/* #delete into folder1/
-rm -r folder_name #very dangers (delete files and folders names)
+rmdir folder* # delete folder1,folder2,folder_,folder... 
+rmdir folder1/* # delete into folder1/
+rm -r folder_name # very dangers (delete files and folders names)
 ```
 en: Show tree folder (install: $ sudo apt install tree)
 ```
 tree
 tree -a
+```
+en: User access
+```
+sudo su -- # root user
+sudo su -nameuserhere # to access your username
 ```
