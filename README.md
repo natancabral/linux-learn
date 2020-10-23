@@ -1,5 +1,9 @@
 # Linux Learn
 
+The Linux command line is a text interface to your computer. Often referred to as the shell, terminal, console, prompt or various other names, it can give the appearance of being complex and confusing to use. Yet the ability to copy and paste commands from a website, combined with the power and flexibility the command line offers.
+
+This tutorial will teach you a little more about commands line on Linux.
+
 ## Finder
 
 * en: Find in /Home size files > 1GB and list then
