@@ -2,7 +2,7 @@
 
 **apt update**
 * en: To install the latest versions of all the previously installed packages on your system, apt-get upgrade is used. This command only upgrades the packages which have a new release available as stated in the sources.list file in the “/etc/apt” folder. It does not attempt to install a new package or remove any installed package on its own. http://linux.die.net/man/8/apt-get
-* pt: Baixa as listas de pacotes dos repositórios e as "atualiza" para obter informações sobre as versões mais recentes dos pacotes e suas dependências. Isso será feito para todos os repositórios e PPAs. Usado para sincronizar novamente os arquivos de índice de pacotes de suas fontes. Os índices dos pacotes disponíveis são buscados no (s) local (is) especificado (s) em /etc/apt/sources.list(5). Uma atualização sempre deve ser realizada antes de uma atualização ou dist-upgrade.
+* pt: Atualiza a lista de repositórios sobre as versões mais recentes dos pacotes e suas dependências. Isso será feito para todos os repositórios e PPAs. Usado para sincronizar novamente os arquivos de índice de pacotes de suas fontes. Os índices dos pacotes disponíveis são buscados no (s) local (is) especificado (s) em /etc/apt/sources.list(5). Uma atualização sempre deve ser realizada antes de uma atualização ou dist-upgrade.
 ```
 sudo apt update
 ```
