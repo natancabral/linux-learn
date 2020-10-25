@@ -14,8 +14,10 @@ sudo dpkg -i <file.deb> # -i --info
 #### Install && Upgrade
 > $ sudo apt install <package_name>
 * pt: Para atualizar seus pacotes já instalados (softwares):
-> $ sudo apt upgrade \n
-> $ sudo apt dist-upgrade \n
+> $ sudo apt upgrade
+
+> $ sudo apt dist-upgrade
+
 > $ sudo apt full-upgrade
 #### Find
 * pt: Para procurar um pacote a ser instalado, use o apt-cache ou apt search, assim:
@@ -42,6 +44,7 @@ Algumas dependências podem permanecer no seu sistema. Se você ficar incomodado
 > $ snap find | grep <word>
 #### Remove
 > $ snap list
+
 > $ sudo snap remove <package_name>
 
 ## YUM, DEB, ETC
