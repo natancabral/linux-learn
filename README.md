@@ -88,14 +88,15 @@ find ~ -size +1G -ls
 
 ## Update & Upgrade
 
-* sudo apt update
-pt: Baixa as listas de pacotes dos repositórios e as "atualiza" para obter informações sobre as versões mais recentes dos pacotes e suas dependências. Isso será feito para todos os repositórios e PPAs. Usado para sincronizar novamente os arquivos de índice de pacotes de suas fontes. Os índices dos pacotes disponíveis são buscados no (s) local (is) especificado (s) em /etc/apt/sources.list(5). Uma atualização sempre deve ser realizada antes de uma atualização ou dist-upgrade.
-en: http://linux.die.net/man/8/apt-get
+***sudo apt update***
+* en: http://linux.die.net/man/8/apt-get
+* pt: Baixa as listas de pacotes dos repositórios e as "atualiza" para obter informações sobre as versões mais recentes dos pacotes e suas dependências. Isso será feito para todos os repositórios e PPAs. Usado para sincronizar novamente os arquivos de índice de pacotes de suas fontes. Os índices dos pacotes disponíveis são buscados no (s) local (is) especificado (s) em /etc/apt/sources.list(5). Uma atualização sempre deve ser realizada antes de uma atualização ou dist-upgrade.
 ```
 sudo apt update
 ```
-*sudo apt upgrade
-Buscará novas versões de pacotes existentes na máquina se o APT souber dessas novas versões por meio de apt-get update. 
+***sudo apt upgrade***
+* en: 
+* pt: Buscará novas versões de pacotes existentes na máquina se o APT souber dessas novas versões por meio de apt-get update. 
 ```
 sudo apt --fix-broken install --yes
 sudo apt list --upgradable
