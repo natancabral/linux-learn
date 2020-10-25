@@ -10,13 +10,13 @@ sudo dpkg -i <file.deb> # -i --info
 
 ### Refresh List
 * pt: Para atualizar os repositórios de software, use o seguinte comando:
-* **sudo apt update
+> $ sudo apt update
 ### Install && Upgrade
-* **sudo apt install <package_name>**
+> $ sudo apt install <package_name>**
 * pt: Para atualizar seus pacotes já instalados (softwares):
-* **sudo apt upgrade**
-* **sudo apt dist-upgrade**
-* **sudo apt full-upgrade**
+> **sudo apt upgrade**
+> **sudo apt dist-upgrade**
+> **sudo apt full-upgrade**
 ### Find
 * pt: Para procurar um pacote a ser instalado, use o apt-cache ou apt search, assim:
 * **sudo apt search <word>**
