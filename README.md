@@ -88,6 +88,8 @@ find ~ -size +1G -ls
 
 ## Install Package
 
+* [Install Package](install-package.md)
+
 ```
 sudo dpkg ~/Downloads/filename.deb
 sudo dpkg /home/<username>Downloads/filename.deb
