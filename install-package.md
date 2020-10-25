@@ -32,6 +32,8 @@ Algumas dependências podem permanecer no seu sistema. Se você ficar incomodado
 
 ## SNAP
 
+First install SNAP manager: **"$ sudo apt install -y snap"**
+
 #### Refresh List
 > Snaps update automatically, and by default, the snapd daemon checks for updates 4 times a day. Each update check is called a refresh
 #### Install && Upgrade
