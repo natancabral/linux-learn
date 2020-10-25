@@ -14,15 +14,15 @@ sudo dpkg -i <file.deb> # -i --info
 #### Install && Upgrade
 > $ sudo apt install <package_name>
 * pt: Para atualizar seus pacotes já instalados (softwares):
-> $ sudo apt upgrade
-> $ sudo apt dist-upgrade
-> $ sudo apt full-upgrade
+> * $ sudo apt upgrade
+> * $ sudo apt dist-upgrade
+> * $ sudo apt full-upgrade
 #### Find
 * pt: Para procurar um pacote a ser instalado, use o apt-cache ou apt search, assim:
 > $ sudo apt search <word>
 #### Remove
-> $ sudo apt list
-> $ sudo apt remove <package_name>
+* > $ sudo apt list
+* > $ sudo apt remove <package_name>
 * pt: Ao remover software do seu sistema usando o comando apt-get remove, o Apt faz todo o trabalho de remoção de dependências não utilizados.
 Algumas dependências podem permanecer no seu sistema. Se você ficar incomodado com isso, poderá então remover os pacotes que não estão sendo mais utilizados pelo Apt, é só utilizar a opção autoremove conforme abaixo:
 > $ sudo apt autoremove
