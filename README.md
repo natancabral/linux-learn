@@ -86,6 +86,14 @@ sudo su -nameuserhere # to access your username
 find ~ -size +1G -ls
 ```
 
+## Install Package
+
+```
+sudo dpkg ~/Downloads/filename.deb
+sudo dpkg /home/<username>Downloads/filename.deb
+sudo dpkg -i <file.deb> # -i --info
+```
+
 ## Update & Upgrade
 
 **apt update**
