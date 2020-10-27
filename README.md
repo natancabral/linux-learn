@@ -50,6 +50,26 @@ ls dir1
 ```bash
 mv dir1/* .
 ```
+* en: Copy Files
+> font: https://www.linuxtechi.com/cp-command-examples-linux-beginners/
+```bash
+cp
+cp /etc/passwd /mnt/backup/
+cp /etc/passwd /etc/group /etc/shadow /mnt/backup/ # multiple copys file to /mnt/backup/
+cp -i # interactively (show copy process)
+cp -n # do not overwrite
+```
+* en: Copy Directory or Folder
+```bash
+cp -r 
+cp -r /etc/passwd /mnt/backup/
+cp -ir # interactively (show copy process)
+cp -n # do not overwrite
+```
+* en: Move Files
+```bash
+mv
+```
 * en: Backup file
 ```bash
 mv backup_combined.txt combined_backup.txt
@@ -79,7 +99,41 @@ sudo su -nameuserhere # to access your username
 find ~ -size +1G -ls
 ```
 
-## Advanced commands
+## System Commands
+
+* en: Displays all of your previous commands up to the history limit.
+```bash
+history
+```
+* en: Print Working Directory. Ubuntu command displays the full pathname 
+```bash
+pwd
+```
+* en: Display System storage
+```bash
+df
+```
+* en: Free space avaliable
+```bash
+free
+```
+* en: Display Process
+```bash
+top
+```
+* en: Change Password User
+```bash
+passwd <user>
+```
+* en: Knolege: WHAT IS (command)
+```bash
+whatis <command>
+whatis cp
+whatis su
+whatis passwd
+```
+
+## Advanced Commands
 
 * [Install Package](install-package.md)
 * [Update & Upgrade](update-and-upgrade.md)
