@@ -20,6 +20,11 @@ mkdir /tmp/tutorial
 ```bash
 cd /tmp/tutorial
 ```
+* en: Back folder
+```bash
+cd .. # go back
+cd / # go root drive
+```
 * en: List folder
 ```bash
 ls
