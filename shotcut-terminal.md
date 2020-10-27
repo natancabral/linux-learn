@@ -5,8 +5,8 @@
 The shortcuts for commands are known as aliases. 
 
 * en: Open file on text editor:
-```
-grdit ~/.bashrc 
+```bash
+gedit ~/.bashrc 
 # or
 nano ~/.bashrc
 ```
