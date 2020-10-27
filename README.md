@@ -83,4 +83,5 @@ find ~ -size +1G -ls
 
 * [Install Package](install-package.md)
 * [Update & Upgrade](update-and-upgrade.md)
+* [Shotcut Terminal](shotcut-terminal.md)
 
