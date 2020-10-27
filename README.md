@@ -132,7 +132,7 @@ whatis cp
 whatis su
 whatis passwd
 ```
-* en: Where local program installed
+* en: Where program was installed
 ```bash
 which
 which calendar
