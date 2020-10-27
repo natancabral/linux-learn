@@ -1,4 +1,4 @@
-## Shotcut Terminal
+## Create Personal Shotcut Terminal
 
 #### Edit File
 
