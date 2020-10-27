@@ -20,10 +20,6 @@ mkdir /tmp/tutorial
 ```bash
 cd /tmp/tutorial
 ```
-* en: Remove folder
-```bash
-rm /tmp/tutorial
-```
 * en: List folder
 ```bash
 ls
