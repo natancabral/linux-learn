@@ -1,5 +1,7 @@
 ## Shotcut Terminal
 
+#### Edit File
+
 The shortcuts for commands are known as aliases. 
 
 * en: Open file on text editor:
@@ -33,4 +35,11 @@ alias user='ssh user@123.45.7.123'
 * en: Ubuntu Version
 ```bash
 alias ubuntu_version='lsb_release -a'
+```
+
+#### Testing Alias (shotcut)
+
+Open new Terminal (Cntl+Alt+T) and typping yout ALIAS below:
+```bash
+$ ubuntu_version
 ```
