@@ -41,6 +41,10 @@ echo "Hello Word"
 ```bash
 echo "Hello Word" > savefile.txt
 ```
+* en: Add text on end file 
+```bash
+echo "Final Line" >> savefile.txt  
+```
 * en: Move file
 ```bash
 mv myfile.txt dir1
