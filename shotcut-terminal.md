@@ -12,7 +12,7 @@ nano ~/.bashrc
 
 * en: Append text on opened file. The syntax to create an alias is: 
 ```bash
-alias \<name_shotcut_alias\>='<\command bash\>'  
+alias <ALIAS_NAME>='<COMMAND_BASH>'  
 ```
 ---
 
