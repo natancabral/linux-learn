@@ -13,50 +13,50 @@ Este tutorial vai te ensinar um pouco mais sobre linha de comando no Linux.
 ## Simples Commands
 
 * en: Create folder
-```
+```bash
 mkdir /tmp/tutorial
 ```
 * en: Enter folder
-```
+```bash
 cd /tmp/tutorial
 ```
 * en: Remove folder
-```
+```bash
 rm /tmp/tutorial
 ```
 * en: List folder
-```
+```bash
 ls
 ls -a (show all hidden files)
 ```
 * en: Write output list
-```
+```bash
 ls > output.txt
 ```
 * en: Displayed Text on screen
-```
+```bash
 echo "Hello Word"
 ```
 * en: Writer Text in file
-```
+```bash
 echo "Hello Word" > savefile.txt
 ```
 * en: Move file
-```
+```bash
 mv myfile.txt dir1
 ls dir1
 ```
 * en: Move all files on "dir1" foder into "current" folder (single dot (.) can be used to represent the current working)
-```
+```bash
 mv dir1/* .
 ```
 * en: Backup file
-```
+```bash
 mv backup_combined.txt combined_backup.txt
 mv "folder1" "folder1_back"
 ```
 * en: Remove Files and Folders
-```
+```bash
 rm file.ext
 rm folder
 rmdir folder* # delete folder1,folder2,folder_,folder... 
@@ -64,18 +64,18 @@ rmdir folder1/* # delete into folder1/
 rm -r folder_name # very dangers (delete files and folders names)
 ```
 * en: Show tree folder (install: $ sudo apt install tree)
-```
+```bash
 tree
 tree -a
 ```
 * en: User access
-```
+```bash
 sudo su -- # root user
 sudo su -nameuserhere # to access your username
 ```
 * en: Find in /Home size files > 1GB and list then
 * pt: Busque por arquivos em /Home de tamanho maior que 1GB e liste
-```
+```bash
 find ~ -size +1G -ls
 ```
 
