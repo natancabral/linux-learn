@@ -132,6 +132,14 @@ whatis cp
 whatis su
 whatis passwd
 ```
+* en: Where local program installed
+```bash
+which
+which calendar
+which nano
+which gedit
+```
+
 
 ## Advanced Commands
 
