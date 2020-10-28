@@ -44,6 +44,7 @@ Open new Terminal (Cntl+Alt+T) and typping yout ALIAS below:
 $ ubuntu_version
 ```
 
+### Username Grenn
 #### My username in the terminal usually green.
 
 en: Basically you change ~/.bashrc file for setting the prompt color, append lines code bellow:
