@@ -29,7 +29,8 @@ cd / # go root drive
 ```bash
 ls
 ls -a # show all hidden files
-ls -ld .?*  # show all hidden directory on listing format
+ls -la # show all hidden files on listing format
+ls -ld .?* # show all hidden directory on listing format
 # Explain:
 # -l                use a long listing format
 # -d, --directory   list  directory entries instead of contents, and do not dereference symbolic links
