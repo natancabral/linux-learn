@@ -144,6 +144,13 @@ whatis cp
 whatis su
 whatis passwd
 ```
+* en: Manual: MAN (command)
+```bash
+man <command>
+man ls
+man su
+man ssh
+```
 * en: Where program was installed
 ```bash
 which
