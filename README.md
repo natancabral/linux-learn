@@ -151,13 +151,6 @@ which calendar
 which nano
 which gedit
 ```
-* en: Where program was installed
-```bash
-which
-which calendar
-which nano
-which gedit
-```
 * en: Used to examine or control the kernel ring buffer.
 ```bash
 dmesg
