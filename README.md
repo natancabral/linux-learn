@@ -114,8 +114,8 @@ find ~ -maxdepth 2 -ls -name *.ini
 find ./folder_name -maxdepth 1 -name *.php
 find -maxdepth 3 -name "*.ini" -not -path ~ -ls
 find -name "*.ini" -path ~ -ls
-find -name "*.ini" ! -name "*config.*" -ls # AND not have
-find -name "*.ini" -o ! -name "*config.*" -ls # OR not have
+find -name "*.ini" ! -name "*config.*" -ls # AND ! not have
+find -name "*.php" -o -name "*.js" -ls # -o OR have
 find . –user maria # on user path
 # -type f - only files
 # -type d - only directories
