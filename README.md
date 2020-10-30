@@ -109,7 +109,7 @@ sudo su -- # root user
 * pt: Busque por arquivos em /Home de tamanho maior que 1GB e liste
 ```bash
 find ~ -size +1G -ls
-find ~ -maxdepth 2 -ls -name *.iniD
+find ~ -maxdepth 2 -ls -name *.ini
 # -ls - show list
 # -maxdepth - max depth find 
 # -name - filename
