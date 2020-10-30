@@ -108,11 +108,26 @@ sudo su -- # root user
 * en: Find in /Home (~/) size files > 1GB and list then
 * pt: Busque por arquivos em /Home de tamanho maior que 1GB e liste
 ```bash
+find ./ -name "*gnnc*" -type f # f files | d directories
 find ~ -size +1G -ls
 find ~ -maxdepth 2 -ls -name *.ini
+find ./folder_name -maxdepth 1 -name *.php
+find -maxdepth 3 -name "*.ini" -not -path ~ -ls
+find -name "*.ini" -path ~ -ls
+find -name "*.ini" ! -name "*config.*" -ls # AND not have
+find -name "*.ini" -o ! -name "*config.*" -ls # OR not have
+find . –user maria # on user path
+# -type f - only files
+# -type d - only directories
 # -ls - show list
 # -maxdepth - max depth find 
-# -name - filename
+# -name - have filename
+# ! -name - not have filename
+# -not -name - not have filename
+# -o - OR
+# -path - local path
+# -user - nameuser
+font: https://e-tinet.com/linux/comando-find-linux/
 ```
 
 ## System Commands
