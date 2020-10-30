@@ -102,13 +102,17 @@ tree -a
 ```
 * en: User access
 ```bash
-sudo su -- # root user
 sudo su -nameuserhere # to access your username
+sudo su -- # root user
 ```
-* en: Find in /Home size files > 1GB and list then
+* en: Find in /Home (~/) size files > 1GB and list then
 * pt: Busque por arquivos em /Home de tamanho maior que 1GB e liste
 ```bash
 find ~ -size +1G -ls
+find ~ -maxdepth 2 -ls -name *.iniD
+# -ls - show list
+# -maxdepth - max depth find 
+# -name - filename
 ```
 
 ## System Commands
