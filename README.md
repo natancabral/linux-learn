@@ -127,7 +127,7 @@ find . –user maria # on user path
 # -o - OR
 # -path - local path
 # -user - nameuser
-font: https://e-tinet.com/linux/comando-find-linux/
+# font: https://e-tinet.com/linux/comando-find-linux/
 ```
 
 ## System Commands
