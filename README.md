@@ -100,6 +100,13 @@ rm -r folder_name # very dangers (delete files and folders names)
 tree
 tree -a
 ```
+* en: Creating Symbolic Link | Symlink
+```bash
+#ln -s <source_file_directory> <link_file_directory>
+sudo ln -s /home/<username>/Downloads /Downloads
+sudo ln -s /home/<username>/Downloads Downloads
+sudo ln -s /media/<username>/<HD>/files/local/developer/ Dev
+```
 * en: User access
 ```bash
 sudo su -nameuserhere # to access your username
