@@ -102,10 +102,15 @@ tree -a
 ```
 * en: Creating Symbolic Link | Symlink
 ```bash
-#ln -s <source_file_directory> <link_file_directory>
+# ln -s <source_file_directory> <link_file_directory>
+# -s stands for symbolic link (make symbolic links instead of hard links)
 sudo ln -s /home/<username>/Downloads /Downloads
 sudo ln -s /home/<username>/Downloads Downloads
 sudo ln -s /media/<username>/<HD>/files/local/developer/ Dev
+# remove Symlink
+unlink <link>
+rm <link>
+unlink Dev
 ```
 * en: User access
 ```bash
