@@ -112,7 +112,7 @@ unlink <link>
 rm <link>
 unlink Dev
 # --------------------------------------------
-# To acess Symlink:
+# To access Symlink:
 cd Dev
 cd /Downloads
 cd Downloads
