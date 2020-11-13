@@ -34,7 +34,7 @@ ls -ld .?* # show all hidden directory on listing format
 # Explain:
 # -a                show all files (ALL)
 # -l                use a long listing format
-# -d, --directory   list  directory entries instead of contents, and do not dereference symbolic links
+# -d, --directory   list  directory entries instead of contents, and do not dereference /media/natancabral/FILES/developer/olic links
 # .?*               will only state hidden files 
 ```
 * en: Write output list
@@ -111,6 +111,11 @@ sudo ln -s /media/<username>/<HD>/files/local/developer/ Dev
 unlink <link>
 rm <link>
 unlink Dev
+# --------------------------------------------
+# To acess Symlink:
+cd Dev
+cd /Downloads
+cd Downloads
 ```
 * en: User access
 ```bash
