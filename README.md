@@ -94,6 +94,9 @@ rm folder
 rmdir folder* # delete folder1,folder2,folder_,folder... 
 rmdir folder1/* # delete into folder1/
 rm -r folder_name # very dangers (delete files and folders names)
+rm -rf folder_name # very very 2x dangers (delete files and folders names)
+# -r - recursive
+# -f - force
 ```
 * en: Show tree folder (install: $ sudo apt install tree)
 ```bash
