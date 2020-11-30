@@ -62,8 +62,18 @@ ls dir1
 ```bash
 mv dir1/* .
 ```
+* en: Backup file
+```bash
+mv backup_combined.txt combined_backup.txt
+mv "folder1" "folder1_back"
+```
+* en: Move folder/path
+```bash
+mv fromPath/ toPath/
+mv fromPath/ ../toPath/
+```
 * en: Copy Files
-> font: https://www.linuxtechi.com/cp-command-examples-linux-beginners/
+> [font](https://www.linuxtechi.com/cp-command-examples-linux-beginners)
 ```bash
 cp
 cp /etc/passwd /mnt/backup/
@@ -77,15 +87,6 @@ cp -r
 cp -r /etc/passwd /mnt/backup/
 cp -ir # interactively (show copy process)
 cp -n # do not overwrite
-```
-* en: Move Files
-```bash
-mv
-```
-* en: Backup file
-```bash
-mv backup_combined.txt combined_backup.txt
-mv "folder1" "folder1_back"
 ```
 * en: Remove Files and Folders
 ```bash
