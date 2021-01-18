@@ -208,4 +208,5 @@ dmesg
 * [Install Package](install-package.md)
 * [Update & Upgrade](update-and-upgrade.md)
 * [Shotcut Terminal](create-personal-shotcut-terminal.md)
+* [Permission](permission.md)
 
